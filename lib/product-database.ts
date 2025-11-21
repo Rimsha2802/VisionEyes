@@ -247,6 +247,15 @@ export const PRODUCT_DATABASE: Product[] = [
     keywords: ["headphones", "earphones", "wireless"],
     inStock: true,
   },
+  {
+    id: "elec-004",
+    name: "Wireless Mouse",
+    price: 49.99,
+    category: "electronics",
+    description: "Ergonomic, wireless mouse with long battery life.", 
+    keywords: ["mouse", "wireless", "peripheral"], 
+    inStock: true
+},
 
   // Office Supplies
   {
@@ -276,6 +285,15 @@ export const PRODUCT_DATABASE: Product[] = [
     keywords: ["book", "novel", "paperback"],
     inStock: true,
   },
+  {
+    id: "office-004",
+    name: "glasses",
+    price: 159.99,
+    category: "office",
+    description: "Glasses designed to block blue light from screens, reducing eye strain.",
+    keywords: ["glasses", "blue light", "eyewear", "screen"],
+    inStock: true
+},
 
   // Household Items
   {
